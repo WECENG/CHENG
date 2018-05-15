@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<head>
+    <title>Order</title>
+</head>
+<body>
+订单:<output th:text="${order.customer}">isSave</output>
+订单:<output th:text="${order1.get(0).customer}">isSave</output>
+订单:<output th:text="${order2.get(0).customer}">isSave</output>
+订单:<output th:text="${order3.get(0).customer}">isSave</output>
+</body>
+</html>
